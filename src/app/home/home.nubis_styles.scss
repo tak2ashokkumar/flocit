@@ -1,9 +1,3 @@
-
-
-
-
-
-
 /* Description: Master CSS file */
 
 /*****************************************
@@ -39,15 +33,10 @@ Colors:
 /**************************/
 /*     General Styles     */
 /**************************/
-body,
-html {
-    width: 100%;
-	height: 100%;
-}
 
-body, p {
+#flocit-home, p {
 	color: #5e6576; 
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+	font: 400 1rem/1.625rem "Open Sans", sans-serif !important;
 }
 
 h1 {
@@ -102,8 +91,8 @@ h6 {
 }
 
 .p-small {
-	font-size: 0.875rem;
-	line-height: 1.5rem;
+	font-size: 0.875rem !important;
+	line-height: 1.5rem !important;
 }
 
 .testimonial-text {
@@ -347,9 +336,9 @@ a:hover {
 /**********************/
 .navbar {
 	background-color: #fcfafb;
-	font-weight: 600;
-	font-size: 0.875rem;
-	line-height: 0.875rem;
+	font-weight: 600 !important;
+	font-size: 0.875rem !important;
+	line-height: 0.875rem !important;
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -516,19 +505,18 @@ a:hover {
 	text-align: center;
 }
 
-.cards-1 .card-icon .fas,
-.cards-1 .card-icon .far {
+.cards-1 .card-icon fa-icon {
 	color: #0092ff;
 	font-size: 2rem;
 	line-height: 66px;
-}
+} 
 
 .cards-1 .card-icon.red {
 	background-color: #fbe4e4;
 }
 
-.cards-1 .card-icon.red .fas,
-.cards-1 .card-icon.red .far {
+.cards-1 .card-icon.red fa-icon,
+.cards-1 .card-icon.red fa-icon {
 	color: #ef473d;
 }
 
@@ -536,8 +524,8 @@ a:hover {
 	background-color: #e0f4ea;
 }
 
-.cards-1 .card-icon.green .fas,
-.cards-1 .card-icon.green .far {
+.cards-1 .card-icon.green fa-icon,
+.cards-1 .card-icon.green fa-icon {
 	color: #16c66d;
 }
 
@@ -665,7 +653,7 @@ a:hover {
 	background-color: #ff6c02;
 }
 
-.accordion-1 .accordion-icon .fas {
+.accordion-1 .accordion-icon fa-icon {
 	color: #ffffff;
 	font-size: 1.25rem;
 	line-height: 44px;
